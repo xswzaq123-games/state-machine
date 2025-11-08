@@ -1,6 +1,9 @@
 @abstract
 class_name aBaseStateInterface
-extends aStateInterface
+extends RefCounted
+
+## Holds a reference to the state-machine
+var state_machine: WeakRef
 
 
 @abstract
